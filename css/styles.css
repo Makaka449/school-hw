@@ -21,7 +21,7 @@ a{
 
 
 .header-logo {
-    color: #4D5AE5;
+    color: #FFFF00;
     font-size: 18px;
     font-family: "Raleway",sans-serif;
     font-weight: 700;
@@ -69,11 +69,11 @@ a{
 
 
 .header_menu_list_a:hover {
-    color: #404BBF;
+    color: #FFFF00;
 }
 
 .header_menu_list_a:focus {
-    color: #404BBF;
+    color: #fffb00;
 }
 
 .header-menu-item {  
@@ -92,11 +92,11 @@ a{
 }
 
 .header-menu-item-a:hover {  
-    color: #404BBF;
+    color: #FFFF00;
 }
 
 .header-menu-item-a:focus {  
-    color: #404BBF;
+    color: #FFFF00;
 }
 
 .address {
@@ -105,7 +105,7 @@ a{
 /*================HERO===========*/
 
 .hero {
-    background-color: #2E2F42 ; 
+    background-color: #c0d354 ; 
 }
 
 .hero-title {
@@ -119,8 +119,8 @@ a{
     word-wrap: break-word
 }
 
-
 .hero-btm {
+    display: inline-block; 
     color: white;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
@@ -128,8 +128,11 @@ a{
     line-height: 24px;
     letter-spacing: 0.64px;
     cursor: pointer;
-    background-color: #4D5AE5;
+    background-color: #FFFF00;
+    padding: 10px 20px; 
+    border-radius: 5px; 
 }
+
 
 .hero-btm:active {
     background-color: #404BBF;
@@ -172,24 +175,27 @@ a{
 }
 
 .footer{
-    background-color: #2e2f42;
+    background-color: #c0d354 ;
+    height: 350px;
 }
 
 .footer-p{
     color: #F4F4FD;
     letter-spacing: 0.02em;
-    line-height: 1.5
+    line-height: 1.5;
+    
 }
 
 .footer-logo{
-    color: #4D5AE5;
+    color: #FFFF00;
     text-transform: uppercase;
     line-height: 21px;
     letter-spacing: 0.54px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17
+    line-height: 1.17'
+
     
 }
 
@@ -201,7 +207,12 @@ a{
     font-weight: 700;
     line-height: 21px;
     letter-spacing: 0.54px;
-    word-wrap: break-word
+    word-wrap: break-word;
+    
+}
+
+.footer-container{
+    margin-left: 350px;
 }
 
 .team{
